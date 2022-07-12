@@ -1,0 +1,302 @@
+@charset "UTF-8";
+.container.sk-theme {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1366px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: gray;
+}
+@media (min-width: 1200px) {
+  .container.sk-theme {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+.container.sk-theme *,
+.container.sk-theme input {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  font-family: "Rubik", sans-serif;
+}
+.container.sk-theme img {
+  width: 100%;
+  height: auto;
+}
+.container.sk-theme ul {
+  list-style-type: none;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.container.sk-theme a {
+  text-decoration: none;
+  font-family: "Rubik", sans-serif;
+}
+.container.sk-theme main {
+  overflow: hidden;
+}
+.container.sk-theme strong {
+  font-weight: 700;
+}
+.container.sk-theme .visually-hidden {
+  position: absolute;
+  width: 1px !important;
+  height: 1px !important;
+  margin: -1px;
+  padding: 0;
+  border: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+.container.sk-theme input[type=number]:focus,
+.container.sk-theme input[type=tel]:focus,
+.container.sk-theme input[type=text]:focus,
+.container.sk-theme textarea:focus,
+.container.sk-theme select:focus {
+  outline: none;
+}
+.container.sk-theme input:focus {
+  outline-width: 0;
+  outline: none;
+}
+.container.sk-theme button,
+.container.sk-theme input[type=submit] {
+  font-family: "Rubik", sans-serif;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+.container.sk-theme button:focus,
+.container.sk-theme input[type=submit]:focus {
+  outline-width: 0;
+  outline: none;
+}
+.container.sk-theme label {
+  cursor: pointer;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.container.sk-theme .clearfix::after {
+  content: ""; /* Генерируем пустой элемент */
+  clear: both; /* Отменяем обтекание*/
+  display: block; /* Блочный элемент */
+}
+.container.sk-theme .disable {
+  display: none !important;
+}
+.container.sk-theme .disable-soft {
+  display: none;
+}
+
+.sk-theme .intro {
+  background-color: white;
+  background-repeat: no-repeat;
+}
+@media (max-width: 767px) {
+  .sk-theme .intro {
+    padding-top: 24px;
+    padding-bottom: 291px;
+    background-size: 100% auto;
+    background-position: center bottom;
+    background-image: url("/serviskomfort/img/sk-into-common--mobile.jpg");
+  }
+}
+@media (min-width: 768px) {
+  .sk-theme .intro {
+    background-size: auto 100%;
+    background-position: right center;
+    background-image: url("/serviskomfort/img/sk-into-common.jpg");
+    padding-top: 77px;
+    padding-bottom: 77px;
+    padding-left: 48px;
+    padding-right: 48px;
+  }
+}
+@media (min-width: 1200px) {
+  .sk-theme .intro {
+    padding-top: 110px;
+    padding-bottom: 110px;
+    padding-left: 59px;
+    padding-right: 59px;
+  }
+}
+.sk-theme .intro__title {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+@media (max-width: 767px) {
+  .sk-theme .intro__title {
+    font-size: 30px;
+    text-align: center;
+  }
+}
+@media (min-width: 768px) {
+  .sk-theme .intro__title {
+    font-size: 48px;
+  }
+}
+@media (min-width: 1200px) {
+  .sk-theme .intro__title {
+    font-size: 60px;
+  }
+}
+.sk-theme .intro__subtitle {
+  display: block;
+}
+@media (max-width: 767px) {
+  .sk-theme .intro__subtitle {
+    font-size: 23px;
+    margin-top: 14px;
+    text-align: center;
+  }
+}
+@media (min-width: 768px) {
+  .sk-theme .intro__subtitle {
+    font-size: 21px;
+    margin-top: 17px;
+  }
+}
+@media (min-width: 1200px) {
+  .sk-theme .intro__subtitle {
+    font-size: 30px;
+    margin-top: 25px;
+  }
+}
+@media (max-width: 767px) {
+  .sk-theme .intro__links {
+    margin-top: 21px;
+  }
+}
+@media (min-width: 768px) {
+  .sk-theme .intro__links {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-top: 48px;
+  }
+}
+@media (min-width: 1200px) {
+  .sk-theme .intro__links {
+    margin-top: 60px;
+  }
+}
+.sk-theme .intro__link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border: 3px solid #1C4893;
+  font-weight: 500;
+  color: rgb(28, 72, 147);
+}
+@media (max-width: 767px) {
+  .sk-theme .intro__link {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    width: 176px;
+    min-height: 47px;
+  }
+}
+@media (min-width: 768px) {
+  .sk-theme .intro__link {
+    width: 260px;
+    min-height: 74px;
+    font-size: 24px;
+    margin-right: 30px;
+  }
+}
+.sk-theme .intro__link:hover {
+  color: #fff;
+  background-color: rgb(28, 72, 147);
+}
+.sk-theme .intro__link:active {
+  background-color: rgb(25, 56, 109);
+}
+
+@media (max-width: 767px) {
+  .sk-theme .utp {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+}
+@media (min-width: 768px) {
+  .sk-theme .utp {
+    padding-top: 48px;
+    padding-bottom: 70px;
+  }
+}
+@media (min-width: 1200px) {
+  .sk-theme .utp {
+    padding-top: 60px;
+    padding-bottom: 100px;
+  }
+}
+.sk-theme .utp__list {
+  padding-left: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+@media (min-width: 768px) {
+  .sk-theme .utp__list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+  }
+}
+.sk-theme .utp__item {
+  background-repeat: no-repeat;
+  background-position: center top;
+}
+@media (max-width: 767px) {
+  .sk-theme .utp__item {
+    font-size: 20px;
+    background-size: 120px auto;
+    padding-top: 140px;
+    margin-bottom: 30px;
+  }
+}
+@media (min-width: 768px) {
+  .sk-theme .utp__item {
+    width: 23%;
+    font-size: 14px;
+    padding-top: 98px;
+    background-size: 84px auto;
+  }
+}
+@media (min-width: 1200px) {
+  .sk-theme .utp__item {
+    background-size: 120px auto;
+    padding-top: 140px;
+    font-size: 20px;
+  }
+}
+.sk-theme .utp__item:nth-child(1) {
+  background-image: url("/serviskomfort/img/utp-1.svg");
+}
+.sk-theme .utp__item:nth-child(2) {
+  background-image: url("/serviskomfort/img/utp-2.svg");
+}
+.sk-theme .utp__item:nth-child(3) {
+  background-image: url("/serviskomfort/img/utp-3.svg");
+}
+.sk-theme .utp__item:nth-child(4) {
+  background-image: url("/serviskomfort/img/utp-4.svg");
+}
+.sk-theme .utp__title {
+  display: block;
+  font-weight: 700;
+  text-align: center;
+}
+.sk-theme .utp__description {
+  display: block;
+  text-align: center;
+}

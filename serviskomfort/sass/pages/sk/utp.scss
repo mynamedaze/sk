@@ -1,0 +1,67 @@
+.sk-theme {
+  .utp {
+    @media #{$max-mobile-width} {
+      padding-top: 50px;
+      padding-bottom: 50px;
+    }
+    @media #{$min-tablet-width} {
+      padding-top: 48px;
+      padding-bottom: 70px;
+    }
+    @media #{$min-desktop-width} {
+      padding-top: 60px;
+      padding-bottom: 100px;
+    }
+  }
+  .utp__list {
+    padding-left: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    @media #{$min-tablet-width} {
+      display: flex;
+      justify-content: space-between;
+    }
+  }
+  .utp__item {
+    background-repeat: no-repeat;
+    background-position: center top;
+    @media #{$max-mobile-width} {
+      font-size: 20px;
+      background-size: 120px auto;
+      padding-top: 140px;
+      margin-bottom: 30px;
+    }
+    @media #{$min-tablet-width} {
+      width: 23%;
+      font-size: 14px;
+      padding-top: 98px;
+      background-size: 84px auto;
+    }
+    @media #{$min-desktop-width} {
+      background-size: 120px auto;
+      padding-top: 140px;
+      font-size: 20px;
+    }
+    &:nth-child(1) {
+      background-image: url("/serviskomfort/img/utp-1.svg");
+    }
+    &:nth-child(2) {
+      background-image: url("/serviskomfort/img/utp-2.svg");
+    }
+    &:nth-child(3) {
+      background-image: url("/serviskomfort/img/utp-3.svg");
+    }
+    &:nth-child(4) {
+      background-image: url("/serviskomfort/img/utp-4.svg");
+    }
+  }
+  .utp__title {
+    display: block;
+    font-weight: 700;
+    text-align: center;
+  }
+  .utp__description {
+    display: block;
+    text-align: center;
+  }
+}
