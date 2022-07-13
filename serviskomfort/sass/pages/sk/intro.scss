@@ -28,6 +28,7 @@
   .intro__title {
     margin-top: 0;
     margin-bottom: 0;
+    font-weight: 600;
     @media #{$max-mobile-width} {
       font-size: 30px;
       text-align: center;

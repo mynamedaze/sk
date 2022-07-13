@@ -1,0 +1,19 @@
+.sk-theme {
+  .sk-title {
+    display: block;
+    text-align: center;
+    font-weight: 600;
+    @media #{$max-mobile-width} {
+      font-size: 25px;
+    }
+    @media #{$min-tablet-width} {
+      font-size: 28px;
+    }
+    @media #{$min-desktop-width} {
+      font-size: 40px;
+    }
+  }
+  .blue {
+    color: #1C4893;
+  }
+}
