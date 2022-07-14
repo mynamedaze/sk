@@ -5,7 +5,6 @@
   max-width: 1366px;
   margin-left: auto;
   margin-right: auto;
-  background-color: gray;
 }
 @media (min-width: 1200px) {
   .container.sk-theme {
@@ -702,18 +701,134 @@
 @media (max-width: 767px) {
   .sk-theme .sk-title {
     font-size: 25px;
+    margin-top: 25px;
+    margin-bottom: 25px;
   }
 }
 @media (min-width: 768px) {
   .sk-theme .sk-title {
     font-size: 28px;
+    margin-top: 42px;
+    margin-bottom: 42px;
   }
 }
 @media (min-width: 1200px) {
   .sk-theme .sk-title {
     font-size: 40px;
+    margin-top: 60px;
+    margin-bottom: 60px;
   }
 }
 .sk-theme .blue {
   color: #1C4893;
+}
+
+.sk-theme .steps__list {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+.sk-theme .steps__item {
+  background-color: #fff;
+}
+@media (max-width: 767px) {
+  .sk-theme .steps__item {
+    margin-top: 30px;
+  }
+}
+@media (min-width: 768px) {
+  .sk-theme .steps__item {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-top: 21px;
+    padding: 36px;
+  }
+}
+@media (min-width: 1200px) {
+  .sk-theme .steps__item {
+    margin-top: 40px;
+    padding: 48px;
+  }
+}
+@media (min-width: 768px) {
+  .sk-theme .steps__item:nth-child(2n-1) .steps__content {
+    -webkit-box-ordinal-group: 3;
+    -ms-flex-order: 2;
+    order: 2;
+    padding-left: 48px;
+  }
+}
+@media (min-width: 1200px) {
+  .sk-theme .steps__item:nth-child(2n-1) .steps__content {
+    padding-left: 60px;
+  }
+}
+@media (max-width: 767px) {
+  .sk-theme .steps__content {
+    padding-top: 25px;
+    padding-left: 14px;
+    padding-right: 14px;
+    padding-bottom: 30px;
+  }
+}
+@media (min-width: 768px) {
+  .sk-theme .steps__content {
+    padding-right: 20px;
+  }
+}
+.sk-theme .steps__title {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-weight: 600;
+}
+@media (max-width: 767px) {
+  .sk-theme .steps__title {
+    font-size: 20px;
+  }
+}
+@media (min-width: 768px) {
+  .sk-theme .steps__title {
+    font-size: 21px;
+  }
+}
+@media (min-width: 1200px) {
+  .sk-theme .steps__title {
+    font-size: 30px;
+  }
+}
+.sk-theme .steps__step-list {
+  margin-bottom: 0;
+  padding-left: 0;
+}
+.sk-theme .steps__step-item {
+  margin-top: 20px;
+  position: relative;
+  padding-left: 30px;
+}
+@media (min-width: 1200px) {
+  .sk-theme .steps__step-item {
+    margin-top: 24px;
+    padding-left: 40px;
+  }
+}
+.sk-theme .steps__step-item:before {
+  position: absolute;
+  content: "";
+  left: 0;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+  width: 20px;
+  height: 20px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  background-image: url("/serviskomfort/img/ok.svg");
+}
+@media (min-width: 1200px) {
+  .sk-theme .steps__step-item:before {
+    width: 24px;
+    height: 24px;
+  }
 }
