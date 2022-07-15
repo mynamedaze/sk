@@ -1,11 +1,16 @@
 .container.sk-theme {
   @include section-width;
   @include paddings;
-  @include centers;
   *,
   input {
+    line-height: 130% !important;
     box-sizing: border-box;
     font-family: $font-main;
+  }
+  h2,
+  h3 {
+    text-transform: none !important;
+    font-weight: 600 !important;
   }
   img {
     width: 100%;

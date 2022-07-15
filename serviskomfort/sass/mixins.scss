@@ -1,7 +1,12 @@
 @mixin section-width() {
   margin-left: auto;
   margin-right: auto;
-  max-width: $max-desktop-wrapper;
+  @media #{$min-tablet-width} {
+    width: 100%;
+  }
+  @media #{$min-desktop-width} {
+    max-width: $max-desktop-wrapper;
+  }
 }
 
 @mixin paddings() {

@@ -7,12 +7,10 @@
       padding-bottom: 291px;
       background-size: 100% auto;
       background-position: center bottom;
-      background-image: url("/serviskomfort/img/sk-into-common--mobile.jpg");
     }
     @media #{$min-tablet-width} {
       background-size: auto 100%;
       background-position: right center;
-      background-image: url("/serviskomfort/img/sk-into-common.jpg");
       padding-top: 77px;
       padding-bottom: 77px;
       padding-left: 48px;
@@ -25,6 +23,30 @@
       padding-right: 59px;
     }
   }
+  .intro--common {
+    @media #{$max-mobile-width} {
+      background-image: url("/serviskomfort/img/sk-into-common--mobile.jpg");;
+    }
+    @media #{$min-tablet-width} {
+      background-image: url("/serviskomfort/img/sk-into-common.jpg");
+    }
+  }
+  .intro--buyers {
+    @media #{$max-mobile-width} {
+      background-image: url("/serviskomfort/img/sk-into-buyers--mobile.jpg");;
+    }
+    @media #{$min-tablet-width} {
+      background-image: url("/serviskomfort/img/sk-into-buyers.jpg");
+    }
+  }
+  .intro--prorabs {
+    @media #{$max-mobile-width} {
+      background-image: url("/serviskomfort/img/sk-into-prorabs--mobile.jpg");;
+    }
+    @media #{$min-tablet-width} {
+      background-image: url("/serviskomfort/img/sk-into-prorabs.jpg");
+    }
+  }
   .intro__title {
     margin-top: 0;
     margin-bottom: 0;
@@ -35,6 +57,7 @@
     }
     @media #{$min-tablet-width} {
       font-size: 48px;
+      text-align: left !important;
     }
     @media #{$min-desktop-width} {
       font-size: 60px;
@@ -50,6 +73,7 @@
     @media #{$min-tablet-width} {
       font-size: 21px;
       margin-top: 17px;
+      text-align: left !important;
     }
     @media #{$min-desktop-width} {
       font-size: 30px;

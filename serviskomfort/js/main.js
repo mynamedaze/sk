@@ -1,6 +1,6 @@
 'use strict';
-$(document).ready(function () {
-    $('.cases__list').owlCarousel({
+jQuery(document).ready(function () {
+    jQuery('.cases__list').owlCarousel({
         loop: true,
         autoplay: true,
         autoplayTimeout: 10000,

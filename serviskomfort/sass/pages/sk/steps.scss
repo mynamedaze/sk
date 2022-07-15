@@ -1,7 +1,4 @@
 .sk-theme {
-  .steps {
-
-  }
   .steps__list {
     margin-top: 0;
     margin-bottom: 0;
@@ -45,6 +42,9 @@
     @media #{$min-tablet-width} {
       padding-right: 20px;
     }
+    * {
+      text-align: left !important;
+    }
   }
   .steps__title {
     margin-top: 0;
@@ -68,9 +68,11 @@
     margin-top: 20px;
     position: relative;
     padding-left: 30px;
+    font-size: 18px !important;
     @media #{$min-desktop-width} {
       margin-top: 24px;
       padding-left: 40px;
+      font-size: 22px !important;
     }
     &:before {
       position: absolute;
